@@ -9,7 +9,7 @@ const config = {
   title: 'Exploit',
   tagline: 'The Exploit Docs.',
   url: 'https://exploit-to.github.io', // Your website URL
-  baseUrl: '/',
+  baseUrl: '/docs/',
   projectName: 'Exploit.to',
   organizationName: 'Exploit',
   trailingSlash: false,
