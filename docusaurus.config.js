@@ -64,10 +64,14 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Exploit-to',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://exploit.to/',
+            label: 'Exploit.to',
             position: 'right',
           },
         ],
@@ -88,14 +92,6 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
@@ -106,16 +102,16 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://exploit.to/blog/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Exploit-to',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Exploit, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
